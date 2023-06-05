@@ -1,54 +1,53 @@
 /* common styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
     list-style-type: none;
-    font-family: "Baloo Da 2","cursive";
-
-}
-
-html{
-    font:62.5%;
-}
-
-
-/* End of common styles */
-
-/* section 1 */
-.section-1{
+    font-family: "Baloo Da 2", cursive;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  /* end of common styles */
+  
+  /* section 1*/
+  .section-1 {
     height: 100vh;
     width: 100%;
     background-image: url(/Asset/Image/dark-bg.jpeg);
-    background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-
-}
-.banner{
-    width: 100%;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-}
-
-.banner-heading{
+    background-size: cover;
+  }
+  
+  .banner{
+      width: 100%;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+  }
+  
+  .banner-heading{
     margin-bottom: 4rem;
     height: 20rem;
-}
-
-.banner-heading span{
-    font-family: "Oswald" sans-serif;
-    font-size: 12rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #fff;
-    text-shadow: 0.3rem 0.3rem 0.6rem;
-
-}
-
-/* End of section 1 */
+  }
+  
+  .banner-heading span{
+     font-family: "Oswald", sans-serif;
+     font-size: 12rem;
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 12rem;
+     font-weight: 400;
+     text-shadow: 0.3rem 0.3rem 0.6rem;
+     
+     
+  }
+  /* End of section 1 */
+  
+  
