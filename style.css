@@ -44,7 +44,9 @@ html{
 .banner-heading span{
     font-family: "Oswald" sans-serif;
     font-size: 12rem;
-    
+    font-weight: 400;
+    text-transform: uppercase;
+
 }
 
 /* End of section 1 */
