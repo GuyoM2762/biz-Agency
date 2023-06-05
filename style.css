@@ -46,6 +46,8 @@ html{
     font-size: 12rem;
     font-weight: 400;
     text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0.3rem 0.3rem 0.6rem;
 
 }
 
