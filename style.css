@@ -24,7 +24,13 @@ html{
     background-image: url(/Asset/Image/dark-bg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 
+}
+.banner{
+    width: 100%;
+    position: absolute;
+    
 }
 
 
