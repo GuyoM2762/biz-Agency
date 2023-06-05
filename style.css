@@ -34,10 +34,17 @@ html{
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    
-
-    
 }
 
+.banner-heading{
+    margin-bottom: 4rem;
+    height: 20rem;
+}
+
+.banner-heading span{
+    font-family: "Oswald" sans-serif;
+    font-size: 12rem;
+    
+}
 
 /* End of section 1 */
