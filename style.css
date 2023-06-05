@@ -18,7 +18,12 @@ html{
 /* End of common styles */
 
 /* section 1 */
+.section-1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/Asset/Image/dark-bg.jpeg);
 
+}
 
 
 /* End of section 1 */
