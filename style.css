@@ -35,6 +35,7 @@
   .banner-heading{
     margin-bottom: 4rem;
     height: 20rem;
+    perspective: 50rem;
   }
   
   .banner-heading span{
@@ -49,10 +50,45 @@
      width: 100%;
      display: flex;
      justify-content: center;
-     
-     
-     
+     transform: translateZ(8rem);
+     opacity: 0;
+     letter-spacing: 3rem;
   }
+
+  @keyframes animateHeading {
+    0%{
+     transform: translateZ(8rem);
+     opacity: 0;
+     letter-spacing: 3rem;
+    }
+    3%{
+      transform: translateZ(0);
+      opacity: 1;
+      letter-spacing: 1.5rem;
+  
+    }
+    25%{
+      transform: translateZ(0);
+      opacity: 1;
+      letter-spacing: 1.5rem
+    }
+
+    28%{
+      transform: translateZ(8rem);
+      opacity: 0;
+      letter-spacing: 3rem
+    }
+    100%{
+      transform: translateZ(8rem);
+      opacity: 0;
+      letter-spacing: 3rem
+    }
+  }
+  .heading-1{
+    animation: animateHeading 5s 3s infinite;
+  }
+
+
 
   .banner-paragraph{
     font-size: 4rem;
