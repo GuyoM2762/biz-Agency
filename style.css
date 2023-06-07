@@ -143,6 +143,8 @@
     visibility: hidden;
     animation: fadeAnimation 1s 2s forwards;
     position: relative;
+    overflow: hidden;
+
 
   }
   .banner-btn::before{
@@ -154,7 +156,7 @@
     position: absolute;
     top: 0;
     left: -100%;
-    transform: scaleX(-30deg);
+    transform: skewX(-30deg);
     transition: left 0.5s;
 
   }
