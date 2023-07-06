@@ -46,8 +46,20 @@
 
 
 }
+.nav-list{
+  display: none;
+}
 
   /* End Of Navbar */
+
+  /* menu */
+  .menu{
+    width: 4rem;
+    height: 4rem;
+    background-color: #eee;
+  }
+  /* End of Menu */
+
   
   /* section 1*/
   .section-1 {
@@ -197,7 +209,8 @@
   }
   .banner-btn:hover::before{
     left: 100%
-  }
+
+
 
 
 
